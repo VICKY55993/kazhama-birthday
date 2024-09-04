@@ -1,0 +1,65 @@
+body {
+	background-color: #000;
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+}
+
+.birthday-wish {
+	background-size: cover;
+	background-position: center;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+#wish-btn {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#wish-message {
+	margin-top: 20px;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+
+.heart {
+	color: #e25555;
+	font-size: 18px;
+	margin: 0 5px;
+}
+
+.ballon {
+	color: #ff99cc;
+	font-size: 18px;
+	margin: 0 5px;
+}
+
+.cake {
+	color: #ffff00;
+	font-size: 18px;
+	margin: 0 5px;
+}
+
+.magic {
+	animation: magic 2s infinite;
+}
+
+@keyframes magic {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
